@@ -6,12 +6,12 @@ func main() {
 	fmt.Println("### Variables in Golang ###")
 
 	var name = "Adam"
-	fmt.Println(name)
+	fmt.Println("Your name is: ", name)
 
 	var age = 22
-	fmt.Println(age)
+	fmt.Println("Your age is: ", age)
 
 	var isAlive = true
-	fmt.Println(isAlive)
+	fmt.Println("Are you alive? ", isAlive)
 
 }
