@@ -3,15 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("### Variables in Golang ###")
+	fmt.Println("### Arrays and Slices in Golang ###")
 
-	var name = "Adam"
-	fmt.Println("Your name is: ", name)
+	var arrayOfNumbers = []int{1, 2, 3, 4, 5}
+	fmt.Println(arrayOfNumbers)
 
-	var age = 22
-	fmt.Println("Your age is: ", age)
-
-	var isAlive = true
-	fmt.Println("Are you alive? ", isAlive)
+	arrayOfStrings := []string{"a", "b", "c", "d", "e"}
+	fmt.Println(arrayOfStrings)
 
 }
